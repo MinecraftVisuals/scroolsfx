@@ -3,11 +3,12 @@
   "id": "hotbarsfx",
   "version": "${version}",
   "name": "Hotbar SFX",
-  "description": "Plays a sound when you change hotbar slot.",
+  "description": "Plays a sound when you change hotbar slot or hover inventory slots.",
   "environment": "client",
   "entrypoints": {
     "client": ["hotbarsfx.HotbarSfxClient"]
   },
+  "mixins": ["hotbarsfx.mixins.json"],
   "depends": {
     "fabricloader": ">=0.18.0",
     "minecraft": "~1.21.11",
