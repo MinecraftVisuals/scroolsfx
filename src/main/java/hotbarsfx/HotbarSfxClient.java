@@ -31,7 +31,7 @@ public class HotbarSfxClient implements ClientModInitializer {
         if (now - lastPlay < COOLDOWN_MS) return;
         lastPlay = now;
         MinecraftClient.getInstance().getSoundManager().play(
-                PositionedSoundInstance.master(SWITCH_SOUND, 1.0f, 1.0f));
+                PositionedSoundInstance.ui(SWITCH_SOUND, 1.0f, 1.0f));
     }
 
     @Override
