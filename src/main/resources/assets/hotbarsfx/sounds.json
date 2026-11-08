@@ -1,0 +1,7 @@
+{
+  "hotbar_switch": {
+    "sounds": [
+      { "name": "hotbarsfx:hover", "volume": 1.0, "stream": false }
+    ]
+  }
+}
