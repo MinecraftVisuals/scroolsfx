@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "hotbarsfx",
+  "version": "${version}",
+  "name": "Hotbar SFX",
+  "description": "Plays a sound when you change hotbar slot.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["hotbarsfx.HotbarSfxClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
